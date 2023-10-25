@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-exchange-configuration xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance">
+    <datastore id="www.grabdata2.com">
+        <datastore-type>merlin</datastore-type>
+        <path>https://www.grabdata2.com</path>
+    </datastore>
+    <datastore-profile id="wat">
+        <datastore-type>csv</datastore-type>
+        <path>$WATERSHED/shared/shasta_profiles.csv</path>
+        <constituents>
+            <constituent parameter="Temp-Water" unit="C"/>
+            <constituent parameter="Depth" unit="ft"/>
+        </constituents>
+    </datastore-profile>
+
+    <data-exchange-set id="Sac._BC_Shasta WTemp Profiles" source-id="www.grabdata2.com"
+        template-name = "Sac._BC_Shasta WTemp Profiles" quality-version-id="2"
+        unit-system="SI">
+        <data-type>profile</data-type>
+        <datastore-ref-a id="www.grabdata2.com"/>
+        <datastore-ref-b id="wat"/>
+    </data-exchange-set>
+
+</data-exchange-configuration>

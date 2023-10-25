@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProgramOrderManager ProgramOrderManagerName="Program Order Manager" Description="" ProgramOrderCount="3">
+  <ProgramOrder0 ProgramOrderName="Default" Description="Default Program Order" ProgramOrderItemCnt="1">
+    <ProgramOrderItem0 ProgramOrderName="ResSim" Description="Reservoir Op." Index="-2147483648" StandardModel="true" InputPosition="0" IconName="Images/rss18.gif" ShortName="RSS" />
+  </ProgramOrder0>
+  <ProgramOrder1 ProgramOrderName="ResSim only" Description="" ProgramOrderItemCnt="1">
+    <ProgramOrderItem0 ProgramOrderName="ResSim" Description="Reservoir Op." Index="1" StandardModel="true" InputPosition="-1" IconName="Images/rss18.gif" ShortName="RSS" />
+  </ProgramOrder1>
+  <ProgramOrder2 ProgramOrderName="ResSimPO" Description="" ProgramOrderItemCnt="2">
+    <ProgramOrderItem0 ProgramOrderName="Scripting" Description="Scripting" Index="1" StandardModel="false" InputPosition="-1" IconName="Images/scripting.gif" ShortName="Scripting" />
+    <ProgramOrderItem1 ProgramOrderName="ResSim" Description="Reservoir Op." Index="2" StandardModel="true" InputPosition="0" IconName="Images/rss18.gif" ShortName="RSS" />
+  </ProgramOrder2>
+</ProgramOrderManager>
+
