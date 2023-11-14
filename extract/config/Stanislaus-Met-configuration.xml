@@ -10,15 +10,15 @@
     </datastore>
 
     <data-exchange-set id="MET_Stanislaus R" source-id="www.grabdata2.com"
-        template-name = "MET_Stanislaus R" quality-version-id="1"
+        template-name = "MET_Stanislaus R" quality-version-id="2"
         unit-system="SI">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
 
-    <data-exchange-set id="MET_New Melones - Tulloch\n" source-id="www.grabdata2.com"
-        template-name = "MET_New Melones - Tulloch\n" quality-version-id="1"
+    <data-exchange-set id="MET_New Melones - Tulloch" source-id="www.grabdata2.com"
+        template-name = "MET_New Melones - Tulloch" quality-version-id="2"
         unit-system="SI">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>

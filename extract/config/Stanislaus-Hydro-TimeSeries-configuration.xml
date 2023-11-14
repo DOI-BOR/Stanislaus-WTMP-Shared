@@ -12,7 +12,7 @@
     </datastore>
 
     <data-exchange-set id="BC_ New Melones Res 1 of 1" source-id="www.grabdata2.com" 
-        template-name = "BC_ New Melones Res 1 of 1" quality-version-id="1" 
+        template-name = "BC_ New Melones Res 1 of 1" quality-version-id="2" 
         quality-version-name = "Boundary Condition" unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
@@ -20,21 +20,21 @@
     </data-exchange-set>
 
     <data-exchange-set id="BC_ Tulloch Lake 1 of 1" source-id="www.grabdata2.com"
-         template-name = "BC_ Tulloch Lake 1 of 1" quality-version-id="0" unit-system="English">
+         template-name = "BC_ Tulloch Lake 1 of 1" quality-version-id="2" unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
 
     <data-exchange-set id="BC_Stanislaus R 1 of 2" source-id="www.grabdata2.com"
-         template-name = "BC_Stanislaus R 1 of 2" quality-version-id="0" unit-system="English">
+         template-name = "BC_Stanislaus R 1 of 2" quality-version-id="2" unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
     </data-exchange-set>
 
     <data-exchange-set id="BC_Stanislaus R 2 of 2" source-id="www.grabdata2.com"
-         template-name = "BC_Stanislaus R 2 of 2" quality-version-id="0" unit-system="English">
+         template-name = "BC_Stanislaus R 2 of 2" quality-version-id="2" unit-system="English">
         <data-type>time-series</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
         <datastore-ref-b id="wat"/>
