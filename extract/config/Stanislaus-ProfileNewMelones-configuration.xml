@@ -6,15 +6,15 @@
     </datastore>
     <datastore-profile id="wat">
         <datastore-type>csv</datastore-type>
-        <path>$WATERSHED/shared/folsom_profiles.csv</path>
+        <path>$WATERSHED/shared/new_melones_profiles.csv</path>
         <constituents>
             <constituent parameter="Temp-Water" unit="C"/>
             <constituent parameter="Depth" unit="ft"/>
         </constituents>
     </datastore-profile>
 
-    <data-exchange-set id="Folsom Lake - MR WTemp Profiles" source-id="www.grabdata2.com"
-        template-name = "Folsom Lake - MR WTemp Profiles" quality-version-id="2"
+    <data-exchange-set id="Profiles_New Melones WTemp" source-id="www.grabdata2.com"
+        template-name = "Profiles_New Melones WTemp" quality-version-id="2"
         unit-system="SI">
         <data-type>profile</data-type>
         <datastore-ref-a id="www.grabdata2.com"/>
